@@ -48,7 +48,14 @@ let altura = "5";
 console.log(Number(largura) * Number(altura));*/
 
 //////////////////////////////////////////////////
-
+/*
 let largura = "10";
 let altura = "5";
-console.log( + largura * + altura);
+console.log( + largura * + altura);*/
+
+////////////////////////////////////////////
+
+const numero = 456;
+const numeroString = "456";
+
+console.log(numero == numeroString);
