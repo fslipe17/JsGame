@@ -1,7 +1,8 @@
-const va = true;
+const minhaVar = true;
 
 console.log(245)
 console.log("eu sou um texto")
-console.log(va)
+console.log(minhaVar)
 
-console.error('Deu erro!!')
+
+console.error('deu erro!')
