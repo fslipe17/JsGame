@@ -1,29 +1,20 @@
 
-var nwme = "Luiz";
-var idade = 17;
+// var nwme = "Luiz";
+// var idade = 17;
 
-console.log(`Oi, me chamo ${nwme} e tenho ${idade} anos.`);
+// console.log(`Oi, me chamo ${nwme} e tenho ${idade} anos.`);
 
 /////////////////////////////////////////////////////
 
+var number = 9;
+var number1 = 2;
 
-//var n1 = prompt("Digite um numero: ");
-//var n2 = prompt("Digite outro numero: ");
+var soma = number + number1;
+var subtração = number - number1;
+var multiplicação = number * number1;
+var divisão = number / number1;
 
-//var number = parseFloat(n1);
-//var number1 = parseFloat(n2);
-
-//var soma = number + number1;
-//var subtração = number - number1;
-//var multiplicação = number * number1;
-//var divisão = number / number1;
-
-//console.log(`Soma, Subitração, Multiplicação, Divisão do primeiro numero com o segundo resultam em:                                                                                 
-//Soma: ${soma}.                                                                                                                                 
-//Subtração: ${subtração}.                                                                                                               
-//Multiplicação: ${multiplicação}.
-//Divisão: ${divisão}.
-//`)                  
+console.log(`As operações basicas para ${number} e ${number1} são: Soma = ${soma}, Subtração = ${subtração}, Multiplicação = ${multiplicação}, Divisão = ${divisão}.`);
 
 ///////////////////////////////////////////////////////
 
@@ -40,6 +31,29 @@ console.log(`Oi, me chamo ${nwme} e tenho ${idade} anos.`);
 
 ////////////////////////////////////////////////////////
 
-for( i = 0; i <= 1000000000000000000000000000000; i ++){
-    console.log(i)
-}
+// for( i = 0; i <= 10; i ++){
+//     console.log(i)
+// }
+
+////////////////////////////////////////////////////////
+
+// var estilosMusicais = ["Rock", "Jazz", "Blues", "Hip Hop", "Funk"];
+
+// for (var i = 0; i < estilosMusicais.length; i++) {
+//     console.log((i + 1) + ". " + estilosMusicais[i]);
+// }
+
+////////////////////////////////////////
+
+// var LivroAtb = {
+//     Titulo: 1984,
+//     Autor: "John Orwell",
+//     N_paginas: 308,
+//     Editora: "Ulisseia",
+//     ISBN: 8535914846
+// };
+
+// console.log(`Livro ${LivroAtb.Titulo}, Autor ${LivroAtb.Autor}, Nº paginas ${LivroAtb.N_paginas}, Editora ${LivroAtb.Editora}, Codigo da versão ${LivroAtb.ISBN}`)
+
+// console.log(LivroAtb);
+
